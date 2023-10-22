@@ -10,14 +10,6 @@ This repository contains my final project for INSE6220, where I performed Princi
 - Methods
 - Results
 - How to Use
-- Contributing
-- License
-
-- Project Overview
-- Second item
-- Third item
-- 
-
 
 **Project Overview:**
 
