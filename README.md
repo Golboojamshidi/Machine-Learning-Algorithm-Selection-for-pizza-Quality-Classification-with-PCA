@@ -1,9 +1,9 @@
 Project Title: Pizza Quality Classification with PCA
 
-Description:
+**Description:**
 This repository contains my final project for INSE6220, where I performed Principal Component Analysis (PCA) and applied machine learning techniques to classify pizza quality based on a gradient dataset. This project serves as my portfolio to showcase my data analysis skills and ability to derive meaningful insights for decision-making.
 
-Table of Contents:
+**Table of Contents:**
 
 Project Overview
 Dataset
@@ -14,22 +14,23 @@ Contributing
 License
 
 
-Project Overview:
+**Project Overview:**
+
 In this project, I conducted an in-depth analysis of a pizza quality dataset using Principal Component Analysis (PCA) and machine learning. This repository represents my final project for INSE6220 course (Advance Statistic Analysis), which centers around the exploration of machine learning algorithms to determine the most suitable model for pizza quality classification. The primary objective is to evaluate and compare various machine learning algorithms to ascertain which one performs optimally on the given pizza gradient dataset. The project serves as a tool for understanding the process of selecting the best ML algorithm for specific datasets and is equipped with analysis tools, including decision boundary plots, Quadratic Discriminant Analysis, Confusion Matrix, and ROC Curve.
 
 
 
-Dataset:
+**Dataset:**
 The dataset used in this project is the Pizza Gradient Dataset. By looking precisely at the Pizza gradient, there are several components in pizza which make the meal delicious or not. The pizza data set contains measurements for the elements that contribute to the taste of a pizza. 
 
-These components are as below:
+**These components are as below:**
 
 mois – The amount of water in the sample per 100 grammes.
 prot — The amount of protein in the sample per 100 grammes.
 fat — The amount of fat in the sample per 100 grammes. ash — The amount of ash in the sample per 100 grammes.
 sodium — The amount of sodium in 100 grammes of sample.
 
-Methods:
+**Methods:**
 
 PCA (Principal Component Analysis): I applied PCA to reduce the dimensionality of the dataset and extract the most important features.
 Machine Learning Techniques: I employed machine learning algorithms such as Naïve Bayes, Extratrees classifier, and Quadratic discriminant for pizza quality classification.
@@ -41,12 +42,12 @@ There are many factors to evaluate and analyse the performance of each model, su
 
 
 
-Results:
+**Results:**
 It can be concluded that the best model of classification before applying PCA was, Light Gradient Boosting Machine, Random Forest Classifier and Extra three classifier. However,  the best model Classifier after reduction is converted to Naive Bayes, Extra tree Classifier and Quadratic discriminant analysis.
 It is clear that by reducing the dimension of the original dataset, the performance (accuracy) of the classifiers has decreased. Light Gradient Boosting Machine (4%), Random Forest Classifier (2%). Furthermore, the best model for reduced dimension data (Nave Bayes) has 2% lower accuracy than the best model for original data (Light Gradient Boosting Machine).
 
 
-How to Use:
+**How to Use:**
 
 Setup: To run the project, clone this repository to your local machine.
 Dependencies: Install the required dependencies using the requirements.txt file.
