@@ -1,2 +1,43 @@
-# INSE6220-Final-project
-PCA which is applied to Pizza's flavors dataset
+Project Title: Pizza Quality Classification with PCA
+
+Description:
+This repository contains my final project for INSE6220, where I performed Principal Component Analysis (PCA) and applied machine learning techniques to classify pizza quality based on a gradient dataset. This project serves as my portfolio to showcase my data analysis skills and ability to derive meaningful insights for decision-making.
+
+Table of Contents:
+
+Project Overview
+Dataset
+Methods
+Results
+How to Use
+Contributing
+License
+Project Overview:
+In this project, I conducted an in-depth analysis of a pizza quality dataset using Principal Component Analysis (PCA) and machine learning. This repository represents my final project for INSE6220 course (Advance Statistic Analysis), which centers around the exploration of machine learning algorithms to determine the most suitable model for pizza quality classification. The primary objective is to evaluate and compare various machine learning algorithms to ascertain which one performs optimally on the given pizza gradient dataset. The project serves as a tool for understanding the process of selecting the best ML algorithm for specific datasets and is equipped with analysis tools, including decision boundary plots, Quadratic Discriminant Analysis, Confusion Matrix, and ROC Curve.
+Dataset:
+The dataset used in this project is the Pizza Gradient Dataset. It includes [provide brief description of the dataset, its source, and attributes]. [If you have additional details about the dataset, mention them here.]
+
+Methods:
+
+PCA (Principal Component Analysis): I applied PCA to reduce the dimensionality of the dataset and extract the most important features.
+Machine Learning Techniques: I employed machine learning algorithms such as Naïve Bayes, Extratrees classifier, and Quadratic discriminant for pizza quality classification.
+
+
+To investigate the effects of PCA on Pizza’s dataset, The classification algorithms are applied to the original dataset. in addition to a PCA-applied dataset with three PCAs components. Python's PyCaret library is used for classification. The original dataset is divided into train and test sets with 70% and 30%, respectively.
+There are many factors to evaluate and analyse the performance of each model, such as accuracy, precision, recall, AUC, ROC, confusion matrix, and so on. Precision measures the fraction of positive predictions, and recall measures the fraction of positives detected for each class.
+
+
+
+
+Results:
+It can be concluded that the best model of classification before applying PCA was, Light Gradient Boosting Machine, Random Forest Classifier and Extra three classifier. However,  the best model Classifier after reduction is converted to Naive Bayes, Extra tree Classifier and Quadratic discriminant analysis.
+It is clear that by reducing the dimension of the original dataset, the performance (accuracy) of the classifiers has decreased. Light Gradient Boosting Machine (4%), Random Forest Classifier (2%). Furthermore, the best model for reduced dimension data (Nave Bayes) has 2% lower accuracy than the best model for original data (Light Gradient Boosting Machine).
+
+
+How to Use:
+
+Setup: To run the project, clone this repository to your local machine.
+Dependencies: Install the required dependencies using the requirements.txt file.
+Execution: Follow the instructions in the Jupyter Notebook Pizzadataset.ipynb to replicate the analysis and experiments.
+Documentation: [If you have provided documentation or additional resources, mention how to access them.]
+
