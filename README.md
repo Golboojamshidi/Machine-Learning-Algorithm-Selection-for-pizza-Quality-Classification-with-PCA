@@ -1,4 +1,4 @@
-Project Title: Pizza Quality Classification with PCA
+## Pizza Quality Classification with PCA
 
 **Description:**
 This repository contains my final project for INSE6220, where I performed Principal Component Analysis (PCA) and applied machine learning techniques to classify pizza quality based on a gradient dataset. This project serves as my portfolio to showcase my data analysis skills and ability to derive meaningful insights for decision-making.
