@@ -5,13 +5,13 @@ This repository contains my final project for INSE6220, where I performed Princi
 
 **Table of Contents:**
 
-Project Overview
-Dataset
-Methods
-Results
-How to Use
-Contributing
-License
+-Project Overview
+-Dataset
+-Methods
+-Results
+-How to Use
+-Contributing
+-License
 
 
 **Project Overview:**
