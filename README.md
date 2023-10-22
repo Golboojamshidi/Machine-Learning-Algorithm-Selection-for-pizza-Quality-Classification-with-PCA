@@ -12,10 +12,22 @@ Results
 How to Use
 Contributing
 License
+
+
 Project Overview:
 In this project, I conducted an in-depth analysis of a pizza quality dataset using Principal Component Analysis (PCA) and machine learning. This repository represents my final project for INSE6220 course (Advance Statistic Analysis), which centers around the exploration of machine learning algorithms to determine the most suitable model for pizza quality classification. The primary objective is to evaluate and compare various machine learning algorithms to ascertain which one performs optimally on the given pizza gradient dataset. The project serves as a tool for understanding the process of selecting the best ML algorithm for specific datasets and is equipped with analysis tools, including decision boundary plots, Quadratic Discriminant Analysis, Confusion Matrix, and ROC Curve.
+
+
+
 Dataset:
-The dataset used in this project is the Pizza Gradient Dataset. It includes [provide brief description of the dataset, its source, and attributes]. [If you have additional details about the dataset, mention them here.]
+The dataset used in this project is the Pizza Gradient Dataset. By looking precisely at the Pizza gradient, there are several components in pizza which make the meal delicious or not. The pizza data set contains measurements for the elements that contribute to the taste of a pizza. 
+
+These components are as below:
+
+mois – The amount of water in the sample per 100 grammes.
+prot — The amount of protein in the sample per 100 grammes.
+fat — The amount of fat in the sample per 100 grammes. ash — The amount of ash in the sample per 100 grammes.
+sodium — The amount of sodium in 100 grammes of sample.
 
 Methods:
 
