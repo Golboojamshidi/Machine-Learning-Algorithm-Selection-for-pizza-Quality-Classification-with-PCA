@@ -1,4 +1,4 @@
-## Pizza Quality Classification with PCA
+## Machine Learning Algorithm Selection for pizza Quality Classification with PCA
 
 **Description:**
 
