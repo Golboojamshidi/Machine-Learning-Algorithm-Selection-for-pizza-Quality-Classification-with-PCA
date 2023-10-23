@@ -20,7 +20,7 @@ In this project, I conducted an in-depth analysis of a pizza quality dataset usi
 
 **Dataset:**
 
-The dataset used in this project is the Pizza Gradient Dataset. By looking precisely at the Pizza gradient, there are several components in pizza which make the meal delicious or not. The pizza data set contains measurements for the elements that contribute to the taste of a pizza. 
+The dataset at the core of this project is the "Pizza Ingredient Analysis Dataset." It has been carefully curated to investigate the effects of various key components, particularly fat, salt, and sodium content, on the composition and characteristics of pizza. This comprehensive dataset offers detailed measurements and attributes related to these critical factors, shedding light on how alterations in fat, salt, or sodium levels can influence the overall composition, taste, and nutritional profile of pizza. It serves as a fundamental resource for discerning the impact of these ingredients on pizza quality and healthiness, providing insights for optimizing the nutritional value and flavor of pizza creations. 
 
 **These components are as below:**
 
