@@ -51,10 +51,3 @@ To identify the possible reasons why Naive Bayes outperformed other models on th
 
 Understanding the interplay between dataset characteristics, dimensionality reduction, and algorithm performance is crucial for making informed decisions when choosing a machine learning model for a given dataset. Further exploration and experimentation may provide deeper insights into the factors contributing to the observed model performance changes.
 
-**How to Use:**
-
-Setup: To run the project, clone this repository to your local machine.
-Dependencies: Install the required dependencies using the requirements.txt file.
-Execution: Follow the instructions in the Jupyter Notebook Pizzadataset.ipynb to replicate the analysis and experiments.
-Documentation: [If you have provided documentation or additional resources, mention how to access them.]
-
