@@ -43,9 +43,13 @@ There are many factors to evaluate and analyse the performance of each model, su
 
 **Results:**
 
-It can be concluded that the best model of classification before applying PCA was, Light Gradient Boosting Machine, Random Forest Classifier and Extra three classifier. However,  the best model Classifier after reduction is converted to Naive Bayes, Extra tree Classifier and Quadratic discriminant analysis.
-It is clear that by reducing the dimension of the original dataset, the performance (accuracy) of the classifiers has decreased. Light Gradient Boosting Machine (4%), Random Forest Classifier (2%). Furthermore, the best model for reduced dimension data (Nave Bayes) has 2% lower accuracy than the best model for original data (Light Gradient Boosting Machine).
+The project's findings reveal important insights into the performance of various classification models when applied to the dataset. Before applying Principal Component Analysis (PCA), the best classification models were found to be Light Gradient Boosting Machine, Random Forest Classifier, and Extra Tree Classifier. However, after dimensionality reduction, the landscape shifted, and the best models became Naive Bayes, Extra Tree Classifier, and Quadratic Discriminant Analysis.
 
+Notably, the reduction in dataset dimensions led to a decrease in classifier performance, as indicated by accuracy scores. Light Gradient Boosting Machine and Random Forest Classifier exhibited a reduction in accuracy of 4% and 2%, respectively, when compared to their performance on the original dataset. Strikingly, the best model for the reduced dimension data, Naive Bayes, showed a 2% lower accuracy rate than the best model for the original data, Light Gradient Boosting Machine.
+
+To identify the possible reasons why Naive Bayes outperformed other models on the reduced dimension data, further analysis is needed. It may be attributed to the fact that Naive Bayes is well-suited to situations where variables are conditionally independent, which can be the case in lower-dimensional datasets. Additionally, the specific characteristics of the dataset, such as the nature of the features and their distributions, may favor the Naive Bayes algorithm's approach to classification.
+
+Understanding the interplay between dataset characteristics, dimensionality reduction, and algorithm performance is crucial for making informed decisions when choosing a machine learning model for a given dataset. Further exploration and experimentation may provide deeper insights into the factors contributing to the observed model performance changes.
 
 **How to Use:**
 
